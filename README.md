@@ -2,10 +2,8 @@
 ![](https://img.shields.io/badge/ProjectType-ConsoleApp-green.svg)
 ![](https://img.shields.io/badge/Programming_Language-c-blue.svg)
 
-  This project in C creates an external file to store the user's data permanently to perform file handling operations. Phonebook is an extremely straightforward small undertaking in C that can assist you with understanding the fundamental ideas of capacities, record taking care of, and information structure. This application will show you how to include, list, change or alter, look and erase information to/from  the record.<br>
-  Individual data like name, gender, father's name, contact number, postal code, email, and address are asked while including a record into the Phonebook. These records would be able to be altered, recorded, looked for, and eliminated.<br>
-  We have used many functions in this project. These functions are very easy to understand as their name itself signifies their respective operations.
-  
+This project in C creates an external file to store the user's data permanently to perform file handling operations. This application will show you how to include, list, change or alter, look and erase information to/from the record. I used many functions in this project. These functions are very easy to understand as their name themselves signifies their respective operations. this program can assist you with understanding the fundamental ideas of capacities and information structure. 
+This application will show you how to include, list, change or alter, look and erase information to/from the record.
   
 ## Functions:
 1. [void add_contact():](#AddContact)      
