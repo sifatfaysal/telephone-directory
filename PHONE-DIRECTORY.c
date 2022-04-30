@@ -10,7 +10,7 @@ struct contact {
     char mobile_no[15];
 };
 typedef struct contact contact;
-// A utility function to add contact into the directory
+// A function to add contact into the directory
 void add_contact() {
     system("cls");
     FILE * fptr;
@@ -36,7 +36,7 @@ void add_contact() {
     getch();
     system("cls");
 }
-// A utility function to print the no.of contacts in the directory
+// A function to print the no.of contacts in the directory
 int directory_info() {
     FILE * fptr;
 
@@ -46,7 +46,7 @@ int directory_info() {
     return ftell(fptr) / sizeof(contact);
 }
 
-//A utility function to display the contacts
+//A function to display the contacts
 void display() {
     system("cls");
     FILE * fptr;
@@ -74,7 +74,7 @@ void display() {
     system("cls");
 }
 
-// A utility function to modify a cotact
+// A function to modify a cotact
 void modify_contact() {
     system("cls");
     FILE * fptr, * fptr1;
@@ -145,7 +145,7 @@ void modify_contact() {
     getch();
     system("cls");
 }
-//A utility function to search for the info of a specified contact
+//A function to search for the info of a specified contact
 void search_contact() {
     system("cls");
     FILE * fp;
@@ -215,7 +215,7 @@ void search_contact() {
     system("cls");
 }
 
-//A utility function to delete a contact from the directory
+//A function to delete a contact from the directory
 void delete_contact() {
     contact cn;
     FILE * fptr, * fptr1;
