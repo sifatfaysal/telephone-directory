@@ -1,4 +1,3 @@
-![](https://img.shields.io/badge/Project-PhoneBook-blue.svg)
 ![](https://img.shields.io/badge/Programming_Language-c-blue.svg)
 ![](https://img.shields.io/badge/ProjectType-ConsoleApp-red.svg)
 
